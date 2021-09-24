@@ -8,7 +8,10 @@ Computer running Unix-Like operating system: MacOS or Windows Subsystem for Linu
 
 ## Schedules
 
-### Meeting 1: CLI Fundamentals
+### Meeting 1 : CLI Fundamentals
+
+Date: Sunday, 26 Sept 2021 
+Time: 21:30 CDT (GMT -5)
 
 1. Basic SHELL
 2. Bash vs Zsh vs Fish
