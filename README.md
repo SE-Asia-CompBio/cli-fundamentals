@@ -21,11 +21,15 @@ Time: 21:30 CDT (GMT -5)
 
 ### Meeting 2: Working with Text
 
+Date: TBD
+
 1. Text editor
 2. Nano vs Vim
 3. Basic shell scripting
 
 ### Meeting 3: Installing CLI Apps
+
+Date: TBD
 
 1. Installing from OS repositories
 2. Installing single-executable app
@@ -35,11 +39,15 @@ Time: 21:30 CDT (GMT -5)
 
 ### Meeting 4: Compiling Code
 
+Date: TBD
+
 1. Compiler basic
 2. Compiling C/C++ applications
 3. Compiling program written in other programming languages, such Rust and Go
 
 ### Meeting 5: Into Git and GitHub
+
+Date: TBD
 
 1. Intro Git
 2. What's the difference between Git and GitHub
