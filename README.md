@@ -4,7 +4,7 @@ A repo for sharing-session on efficient ways of using command line application (
 
 Requirements:
 
-Computer with Unix-Like operating system: MacOS or Windows Subsystem for Linux.
+Computer running Unix-Like operating system: MacOS or Windows Subsystem for Linux.
 
 ## Schedules
 
@@ -15,7 +15,7 @@ Computer with Unix-Like operating system: MacOS or Windows Subsystem for Linux.
 3. Commonly used commands
 4. Using alias
 
-### Meeting 2: Alising and Working with Text
+### Meeting 2: Working with Text
 
 1. Text editor
 2. Nano vs Vim
