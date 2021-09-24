@@ -20,14 +20,15 @@ Computer running Unix-Like operating system: MacOS or Windows Subsystem for Linu
 1. Text editor
 2. Nano vs Vim
 
-### Meeting 3: Running CLI Apps
+### Meeting 3: Installing CLI Apps
 
-1. Installing single-executable app
-2. Installing python based applications
-3. Installing Java based applications
-4. Using Bash to simplify Java-based application commands
-5. Compiling C/C++ applications
-6. Compiling program written in other programming languages, such Rust and Go
+1. Installing from OS repositories
+2. Installing single-executable app
+3. Installing python based applications
+4. Installing Java based applications
+5. Using Bash to simplify Java-based application commands
+6. Compiling C/C++ applications
+7. Compiling program written in other programming languages, such Rust and Go
 
 ### Meeting 4: Into Git and GitHub
 
