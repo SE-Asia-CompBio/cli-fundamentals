@@ -19,7 +19,7 @@ Computer running Unix-Like operating system: MacOS or Windows Subsystem for Linu
 
 1. Text editor
 2. Nano vs Vim
-3. Basic Bash
+3. Shell scripting
 
 ### Meeting 3: Installing CLI Apps
 
