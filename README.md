@@ -1,6 +1,6 @@
 # cli-fundamentals
 
-A repo for sharing-session on efficient ways of using command line application (CLI). This session is mostly aimed for biologists studying phylogenetics, but also useful for those who are interested in learning programming languages beyond R.
+A repo for sharing-session on efficient ways of using command line application (CLI). This session is mostly aimed for biologists studying phylogenetics, but it also provides useful command line skills to those who are interested in learning programming languages beyond R.
 
 Requirements:
 
