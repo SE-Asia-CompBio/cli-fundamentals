@@ -28,12 +28,17 @@ Computer running Unix-Like operating system: MacOS or Windows Subsystem for Linu
 3. Installing python based applications
 4. Installing Java based applications
 5. Using Bash to simplify Java-based application commands
-6. Compiling C/C++ applications
-7. Compiling program written in other programming languages, such Rust and Go
 
-### Meeting 4: Into Git and GitHub
+### Meeting 4: Compiling Code
+
+1. Compiler basic
+2. Compiling C/C++ applications
+3. Compiling program written in other programming languages, such Rust and Go
+
+### Meeting 5: Into Git and GitHub
 
 1. Intro Git
 2. What's the difference between Git and GitHub
 3. Setting up our first github repository
 4. Working with local Git repository
+5. Commonly used Git commands
