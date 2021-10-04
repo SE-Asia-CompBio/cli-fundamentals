@@ -1,0 +1,227 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Partition file name: Concat/PartConcat_66Seqs_5loci_Dec2019.txt.best_scheme.nex
+Input file name: Concat/Concat67Seq_20191225.nex
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 119579
+
+REFERENCES
+----------
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst Biol, 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 67 taxa with 6 partitions and 5346 total sites (8.8804% missing data)
+
+  ID  Name                                        Type	Seq	Site	Unique	Infor	Invar	Const
+   1  Subset1                                     DNA	67	268	118	60	190	190
+   2  Subset2                                     DNA	67	267	66	13	241	241
+   3  Subset3                                     DNA	67	267	243	219	34	34
+   4  Subset4_Subset8_Subset10                    DNA	60	989	451	91	789	789
+   5  Subset5_Subset9_Subset11_Subset13           DNA	60	1515	435	50	1404	1404
+   6  Subset6_Subset7_Subset12_Subset14_Subset15  DNA	60	2040	515	68	1874	1874
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model but separate models between partitions
+
+  ID  Model           Speed  Parameters
+   1  TIM2e+I+G4     1.7990  TIM2e{7.89157,98.7679,81.2831}+FQ+I{0.589005}+G4{0.716215}
+   2  TIM2+F+I+G4    0.6679  TIM2{0.157934,0.455077,5.96752}+F{0.206524,0.258295,0.132786,0.402396}+I{0.772058}+G4{0.287222}
+   3  TIM2+F+I+G4    13.2674  TIM2{0.288807,18.8659,7.83036}+F{0.412431,0.387556,0.0259958,0.174017}+I{0.0709116}+G4{4.18686}
+   4  TPM2u+F+R2     0.5028  TPM2u{2.4711,9.90452}+F{0.17058,0.321642,0.268537,0.239241}+R2{0.938503,0.557257,0.061497,7.75669}
+   5  HKY+F+I        0.1730  HKY{4.47152}+F{0.310062,0.235117,0.307563,0.147258}+I{0.801275}
+   6  HKY+F+G4       0.1881  HKY{4.20614}+F{0.329865,0.22599,0.18592,0.258225}+G4{0.221879}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -18897.5033 (s.e. 446.4165)
+Unconstrained log-likelihood (without tree): -27063.3665
+Number of free parameters (#branches + #model parameters): 174
+Akaike information criterion (AIC) score: 38143.0066
+Corrected Akaike information criterion (AICc) score: 38154.7839
+Bayesian information criterion (BIC) score: 39288.6407
+
+Total tree length (sum of branch lengths): 0.7526
+Sum of internal branch lengths: 0.3431 (45.5809% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0002) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Taeromys_punicans_MVZ225815' is drawn at root
+Numbers in parentheses are SH-aLRT support (%)
+
++------------Taeromys_punicans_MVZ225815
+|
+|         +------Taeromys_calitrichus_NMVZ27408
++---------| (99.9)
+|         +--Taeromys_calitrichus_NMVC38026
+|
+|                                     +--Taeromys_celebensis_NMVZ20637
+|                          +----------| (100)
+|                          |          +--Taeromys_celebensis_NMVC38225
+|                    +-----| (98.6)
+|                    |     |                   +--Paruromys_dominator_NMVC38061
+|                    |     |                +--| (98.4)
+|                    |     |                |  +--Paruromys_dominator_NMVC38046
+|                    |     |             +--| (86.9)
+|                    |     |             |  |  +--Paruromys_dominator_NMVC37998
+|                    |     |             |  +--| (96.9)
+|                    |     |             |     +**Paruromys_dominator_NMVC38192
+|                    |     |        +----| (95.8)
+|                    |     |        |    +--Paruromys_dominator_NMVC37192
+|                    |     +--------| (99.9)
+|                    |              |  +---Paruromys_dominator_NMVC37024
+|                    |              +--| (30.3)
+|                    |                 +--Paruromys_dominator_NMVZ57113
+|                 +**| (0)
+|                 |  +---------------------------Genuss_spnov_KCR1386
+|              +--| (76.9)
+|              |  |                  +--Lenomys_meyeri_NMVC38083
+|              |  |               +--| (80.8)
+|              |  |               |  +--Lenomys_meyeri_KCR2320
+|              |  |  +------------| (100)
+|              |  |  |            +--Lenomys_meyeri_NMVC38222
+|              |  +--| (84.2)
+|              |     +-------------Eropeplus_canus_NMVZ21733
+|           +--| (74)
+|           |  |                       +**Bunomys_chrysocomus_MVZ225696
+|           |  |                    +--| (98.3)
+|           |  |                    |  +**Bunomys_chrysocomus_NMVC37381
+|           |  |             +------| (99.8)
+|           |  |             |      +--Bunomys_chrysocomus_ABTC65755
+|           |  |          +--| (90.4)
+|           |  |          |  |     +**Bunomys_prolatus_NMVZ56716
+|           |  |          |  +-----| (99.6)
+|           |  |          |        +**Bunomys_prolatus_NMVZ56717
+|           |  |       +--| (81.5)
+|           |  |       |  |        +--------Bunomys_penitus_FMNH213334
+|           |  |       |  |     +--| (98)
+|           |  |       |  |     |  |       +--Bunomys_penitus_FMNH213103
+|           |  |       |  |     |  |    +**| (0)
+|           |  |       |  |     |  |    |  +--Bunomys_penitus_NMVC37624
+|           |  |       |  |     |  +----| (99.8)
+|           |  |       |  |     |       |  +**Bunomys_penitus_NMVC37621
+|           |  |       |  |     |       +--| (93.2)
+|           |  |       |  |     |          +**Bunomys_penitus_NMVC36983
+|           |  |       |  |  +--| (61.7)
+|           |  |       |  |  |  |      +---Bunomys_andrewsi_NMVC36987
+|           |  |       |  |  |  |   +--| (27.1)
+|           |  |       |  |  |  |   |  |  +--Bunomys_andrewsi_NMVC36985
+|           |  |       |  |  |  |   |  +--| (96.2)
+|           |  |       |  |  |  |   |     |  +--Bunomys_andrewsi_NMVZ20459
+|           |  |       |  |  |  |   |     +--| (82.6)
+|           |  |       |  |  |  |   |        +--Bunomys_andrewsi_NMVC37623
+|           |  |       |  |  |  +---| (99.8)
+|           |  |       |  |  |      +--Bunomys_andrewsi_MVZ225715
+|           |  |       |  +--| (91.5)
+|           |  |       |     |          +**Bunomys_coelestis_NMVZ56273
+|           |  |       |     |       +--| (74.8)
+|           |  |       |     |       |  |  +**Bunomys_coelestis_NMVZ56303
+|           |  |       |     |       |  +**| (0)
+|           |  |       |     |       |     +**Bunomys_coelestis_NMVZ57127
+|           |  |       |     +-------| (100)
+|           |  |       |             +--Bunomys_coelestis_NMVZ57424
+|           |  |  +----| (99.2)
+|           |  |  |    |  +----Bunomys_spnov_FMNH213086
+|           |  |  |    +--| (97.4)
+|           |  |  |       |    +--Bunomys_torajae_NMVC37634
+|           |  |  |       +----| (99.2)
+|           |  |  |            |  +--Bunomys_torajae_NMVC37628
+|           |  |  |            +--| (75.5)
+|           |  |  |               +**Bunomys_torajae_NMVZ21819
+|           |  +--| (91.2)
+|           |     |             +----------Halmaheramys_bokimekot_MZB32261
+|           |     |    +--------| (98.4)
+|           |     |    |        +--------Halmaheramys_wallacei_MZB38227
+|           |     +----| (96.5)
+|           |          |                           +--------Bullimus_gamay_FMNH154823
+|           |          |                        +--| (15.4)
+|           |          |                        |  +-------Bullimus_bagobus_USNM58789_458785
+|           |          |        +---------------| (100)
+|           |          |        |               +----Bullimus_luzonicus_FMNH169127
+|           |          |     +--| (31)
+|           |          |     |  |                           +-------Sundamys_muelleri_MVZ192234
+|           |          |     |  |          +----------------| (99.9)
+|           |          |     |  |          |                +-------Sundamys_maxi_RMNH21479
+|           |          |     |  |    +-----| (86.5)
+|           |          |     |  |    |     +---------------Sundamys_annandalei_MZB28969
+|           |          |     |  +----| (86.1)
+|           |          |     |       +------------------Sundamys_infraluteus_BOR251
+|           |          |  +--| (69.9)
+|           |          |  |  |  +---------------------------------Papagomys_armandvillei_WAM32592
+|           |          |  |  +--| (69.7)
+|           |          |  |     |          +-----------------------Rattus_hoffmanni_MVZ225813
+|           |          |  |     +----------| (99.8)
+|           |          |  |                +--------------Rattus_facetus_MVZ225821
+|           |          +--| (87.3)
+|           |             |            +---------Rattus_timorensis_WAM34827
+|           |             +------------| (99.9)
+|           |                          +---------Komodomys_rintjanus_WAM32952
+|       +---| (98.3)
+|       |   |                 +--Bunomys_fratrorum_NMVC37194DK
+|       |   |   +-------------| (100)
+|       |   |   |             +--Bunomys_fratrorum_NMVC37234DK
+|       |   +---| (96.4)
+|       |       |         +--Bunomys_fratrorum_NMVC38212AM
+|       |       |     +---| (98)
+|       |       |     |   |  +--Bunomys_fratrorum_NMVC37971AM
+|       |       |     |   +--| (75.5)
+|       |       |     |      +--Bunomys_fratrorum_NMVC38013AM
+|       |       +-----| (97.4)
+|       |             |  +--Bunomys_fratrorum_NMVC38227DS
+|       |             +--| (89.2)
+|       |                +--Bunomys_fratrorum_NMVC38228DS
+|  +----| (98.3)
+|  |    |                   +**Taeromys_taerae_NMVC37991AM
+|  |    |                +--| (88.4)
+|  |    |                |  +**Taeromys_taerae_NMVC37997AM
+|  |    |             +--| (85)
+|  |    |             |  +**Taeromys_taerae_NMV_C38063AM
+|  |    +-------------| (100)
+|  |                  |  +**Taeromys_taerae_NMVC37212DK
+|  |                  +--| (97.2)
+|  |                     +--Taeromys_taerae_NMVC37207DK
++--| (30.6)
+   +-----------Taeromys_spnov_KCR1436
+
+Tree in newick format:
+
+(Taeromys_punicans_MVZ225815:0.0161483897,(Taeromys_calitrichus_NMVZ27408:0.0084520503,Taeromys_calitrichus_NMVC38026:0.0036762417)99.9:0.0121938750,((((((((Taeromys_celebensis_NMVZ20637:0.0031766452,Taeromys_celebensis_NMVC38225:0.0027515671)100:0.0133410100,((((Paruromys_dominator_NMVC38061:0.0003780303,Paruromys_dominator_NMVC38046:0.0006004715)98.4:0.0033640274,(Paruromys_dominator_NMVC37998:0.0001981373,Paruromys_dominator_NMVC38192:0.0000021380)96.9:0.0019285495)86.9:0.0010144628,Paruromys_dominator_NMVC37192:0.0025322100)95.8:0.0063998260,(Paruromys_dominator_NMVC37024:0.0049113505,Paruromys_dominator_NMVZ57113:0.0040058047)30.3:0.0038922819)99.9:0.0119180737)98.6:0.0075435001,Genuss_spnov_KCR1386:0.0335829628)0:0.0000026279,(((Lenomys_meyeri_NMVC38083:0.0025822906,Lenomys_meyeri_KCR2320:0.0011699030)80.8:0.0010217772,Lenomys_meyeri_NMVC38222:0.0010724425)100:0.0162105080,Eropeplus_canus_NMVZ21733:0.0171329144)84.2:0.0044542044)76.9:0.0013928039,((((((Bunomys_chrysocomus_MVZ225696:0.0000023246,Bunomys_chrysocomus_NMVC37381:0.0000023244)98.3:0.0028601237,Bunomys_chrysocomus_ABTC65755:0.0029059489)99.8:0.0092830237,(Bunomys_prolatus_NMVZ56716:0.0000028863,Bunomys_prolatus_NMVZ56717:0.0000028863)99.6:0.0074009736)90.4:0.0028426527,(((Bunomys_penitus_FMNH213334:0.0110725029,((Bunomys_penitus_FMNH213103:0.0022303925,Bunomys_penitus_NMVC37624:0.0018075195)0:0.0000844565,(Bunomys_penitus_NMVC37621:0.0000021380,Bunomys_penitus_NMVC36983:0.0000021380)93.2:0.0018285214)99.8:0.0060239370)98:0.0043362775,((Bunomys_andrewsi_NMVC36987:0.0049111907,(Bunomys_andrewsi_NMVC36985:0.0022192818,(Bunomys_andrewsi_NMVZ20459:0.0004998447,Bunomys_andrewsi_NMVC37623:0.0004922844)82.6:0.0027905315)96.2:0.0023170929)27.1:0.0015091196,Bunomys_andrewsi_MVZ225715:0.0037829635)99.8:0.0057506043)61.7:0.0003366808,((Bunomys_coelestis_NMVZ56273:0.0000026352,(Bunomys_coelestis_NMVZ56303:0.0000028863,Bunomys_coelestis_NMVZ57127:0.0000028863)0:0.0000021016)74.8:0.0002742166,Bunomys_coelestis_NMVZ57424:0.0004648249)100:0.0100631134)91.5:0.0016512919)81.5:0.0012757166,(Bunomys_spnov_FMNH213086:0.0067764494,(Bunomys_torajae_NMVC37634:0.0002413965,(Bunomys_torajae_NMVC37628:0.0002707558,Bunomys_torajae_NMVZ21819:0.0000024593)75.5:0.0007907778)99.2:0.0067889866)97.4:0.0041116225)99.2:0.0071004435,((Halmaheramys_bokimekot_MZB32261:0.0131544418,Halmaheramys_wallacei_MZB38227:0.0118991075)98.4:0.0109350229,(((((Bullimus_gamay_FMNH154823:0.0118054649,Bullimus_bagobus_USNM58789_458785:0.0105712444)15.4:0.0022752188,Bullimus_luzonicus_FMNH169127:0.0063194624)100:0.0201508794,(((Sundamys_muelleri_MVZ192234:0.0096403117,Sundamys_maxi_RMNH21479:0.0100188461)99.9:0.0205549223,Sundamys_annandalei_MZB28969:0.0192523799)86.5:0.0072001832,Sundamys_infraluteus_BOR251:0.0228035846)86.1:0.0064866439)31:0.0016805338,(Papagomys_armandvillei_WAM32592:0.0413052666,(Rattus_hoffmanni_MVZ225813:0.0297962365,Rattus_facetus_MVZ225821:0.0184177344)99.8:0.0136153211)69.7:0.0021214989)69.9:0.0010018186,(Rattus_timorensis_WAM34827:0.0127002005,Komodomys_rintjanus_WAM32952:0.0129858638)99.9:0.0158381500)87.3:0.0026597320)96.5:0.0060880290)91.2:0.0023068446)74:0.0006452340,((Bunomys_fratrorum_NMVC37194DK:0.0019095448,Bunomys_fratrorum_NMVC37234DK:0.0016723939)100:0.0172137006,((Bunomys_fratrorum_NMVC38212AM:0.0010735640,(Bunomys_fratrorum_NMVC37971AM:0.0012021964,Bunomys_fratrorum_NMVC38013AM:0.0003218267)75.5:0.0006740003)98:0.0057010420,(Bunomys_fratrorum_NMVC38227DS:0.0022708549,Bunomys_fratrorum_NMVC38228DS:0.0022766670)89.2:0.0041016010)97.4:0.0081017429)96.4:0.0054131369)98.3:0.0053601391,(((Taeromys_taerae_NMVC37991AM:0.0000021380,Taeromys_taerae_NMVC37997AM:0.0000021380)88.4:0.0003600276,Taeromys_taerae_NMV_C38063AM:0.0000025046)85:0.0022469816,(Taeromys_taerae_NMVC37212DK:0.0000021380,Taeromys_taerae_NMVC37207DK:0.0009743553)97.2:0.0043471349)100:0.0169370800)98.3:0.0060535762,Taeromys_spnov_KCR1436:0.0144006723)30.6:0.0016174158);
+
+TIME STAMP
+----------
+
+Date and time: Mon Feb 24 15:31:50 2020
+Total CPU time used: 52.0781 seconds (0h:0m:52s)
+Total wall-clock time used: 17.9585 seconds (0h:0m:17s)
+
